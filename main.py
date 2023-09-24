@@ -16,8 +16,35 @@ user1 = PersonQuiz(name, age, pro, gos, hol, fight)
 
 user1.exam()
 
-print(user1.genres[0])
-#items = ia.search_movie('Harry Potter')
 
-#for i in items:
-    #print(i)
+maxvalue = max(user1.genres)
+index = user1.genres.index(maxvalue)
+
+if(index == 0):
+    items = ia.search_movie("Godfather")
+    for i in items:
+      print(i)
+elif(index == 1):
+    items = ia.search_movie("Law and Order")
+    for i in items:
+        print(i)
+elif(index == 2):
+    items = ia.search_movie("Jumanji")
+    for i in items:
+        print(i)
+elif(index == 3):
+    items = ia.search_movie("Scream")
+    for i in items:
+        print(i)
+elif(index == 4):
+    items = ia.search_movie("IT")
+    for i in items:
+        print(i)
+elif(index == 5):
+    items = ia.search_movie("Dumb and Dumber")
+    for i in items:
+        print(i)
+elif(index == 6):
+    items = ia.search_movie("La La Land")
+    for i in items:
+      print(i)

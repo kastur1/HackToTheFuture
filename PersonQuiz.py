@@ -33,11 +33,11 @@ class PersonQuiz:
             genres[5] += 1 #comedy
             genres[6] += 1 #romance
         if self.age <= 20:
-            genres[5] += 1
-            genres[3] += 1
-            genres[4] += 0.5
-            genres[2] += 1
-            genres[6] += 1
+            genres[5] += 1 #comedy
+            genres[3] += 1 #thriller
+            genres[4] += 0.5 #horror
+            genres[2] += 1 #action
+            genres[6] += 1 #romance
         elif self.age < 40:
             genres[0] += 1
             genres[5] += 0.5
