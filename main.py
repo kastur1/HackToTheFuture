@@ -21,7 +21,7 @@ maxvalue = max(user1.genres)
 index = user1.genres.index(maxvalue)
 
 if(index == 0):
-    items = ia.search_movie("Godfather")
+    items = ia.search_movie("The Godfather")
     for i in items:
       print(i)
 elif(index == 1):
